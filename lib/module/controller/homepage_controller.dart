@@ -10,6 +10,9 @@ class HomePageController extends GetxController{
  late TextEditingController todoController;
  FirebaseServices services = FirebaseServices();
  List<TodoModel> get todos => todoList.value;
+ bool checkBoxValue = false;
+ String selectedValue = "";
+
 
  @override
   void onInit() {
@@ -18,6 +21,17 @@ class HomePageController extends GetxController{
     todoList.bindStream(services.listOfData());
     todoController = TextEditingController();
 
+  }
+
+  onSelectValue(bool? value,int index,String content){
+   selectedValue = content;
+   if(selectedValue == todoList[index].content){
+     checkBoxValue= value!;
+   }else{
+     checkBoxValue= false;
+   }
+
+   update();
   }
 
   @override

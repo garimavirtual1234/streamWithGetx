@@ -62,7 +62,12 @@ class _MyHomePageState extends State<MyHomePage> {
                             itemBuilder: (_,index){
                            var time=   DateTime.parse((controller.todos[index].createdOn)!.toDate().toString());
                             return ListTile(
-                            //  leading: Text("${controller.todos[index].documentId}"),
+                              // leading:
+                              //  Checkbox(value: controller.checkBoxValue,onChanged: (bool? value) {
+                              //
+                              //    controller.onSelectValue(value, index,"${controller.todos[index].content}");
+                              //  },),
+
                               title: Text("${controller.todos[index].content}"),
                               subtitle: Text("$time"),
                             );
