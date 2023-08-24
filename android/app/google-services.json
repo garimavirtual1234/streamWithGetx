@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307175535673",
+    "project_id": "streamusinggetx",
+    "storage_bucket": "streamusinggetx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307175535673:android:2fcdec142e63d5bc1589e8",
+        "android_client_info": {
+          "package_name": "com.example.stream_getx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307175535673-dhmlq71kl1a65br0l3dfgmrnae2gebak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD04Fdrtp8bv_l6leraqaLPskWp7sccOo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307175535673-dhmlq71kl1a65br0l3dfgmrnae2gebak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
